@@ -16,7 +16,6 @@ const Login = ({login,isAuthenticated})=>{
         login(email,password);
     }
 
-
     //Redirect if authenticated
     if(isAuthenticated)
     {

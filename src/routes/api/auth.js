@@ -12,7 +12,6 @@ require('dotenv').config()
 //@route GET api/auth
 //@desc  get user by token
 //access Private
-
 router.get('/',auth, async (req,res)=>{
     try {
         const user = await User.findById(req.user_id).select('-password');

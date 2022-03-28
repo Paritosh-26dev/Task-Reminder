@@ -61,8 +61,7 @@ export const getProfileById = userId => async dispatch=>{
 };
 
 
-
-//create or update Profile
+//Create or update Profile
 export const createProfile = (formData,history,edit=false) =>async dispatch=>{
     try {
         const config = {

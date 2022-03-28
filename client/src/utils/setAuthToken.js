@@ -1,5 +1,6 @@
-import axios from 'axios'; //not for making request here but for setting header
+import axios from 'axios'; 
 
+//not for making request here but for setting header
 const setAuthToken = token =>{
     if(token)
     {

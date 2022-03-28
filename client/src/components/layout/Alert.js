@@ -8,7 +8,6 @@ const Alert = ({alerts}) => alerts!==null && alerts.length > 0 && alerts.map(ale
         </div>
     ));
 
-
 Alert.propTypes = {
     alerts:PropTypes.array.isRequired
 }

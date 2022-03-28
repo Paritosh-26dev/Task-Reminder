@@ -81,7 +81,6 @@ export const deleteTask = taskId => async dispatch => {
 };
 
 //Add a task
-
 export const addTask = (formData, history) => async dispatch => {
   const config = {
     headers: {
