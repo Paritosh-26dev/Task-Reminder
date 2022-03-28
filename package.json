@@ -7,12 +7,13 @@
     "server": "nodemon src/index.js",
     "start": "node src/index.js",
     "client": "cd client && npm start",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "cd client && npm install --only=dev && npm install && npm run build"
   },
   "author": "Paritosh Dev",
   "license": "MIT",
   "engines": {
-    "node": "16.13.0"
+    "node": "16.x"
   },
   "dependencies": {
     "@sendgrid/mail": "^6.5.2",
