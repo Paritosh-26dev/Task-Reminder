@@ -11,6 +11,9 @@
   },
   "author": "Paritosh Dev",
   "license": "MIT",
+  "engines": {
+    "node": "16.13.0"
+  },
   "dependencies": {
     "@sendgrid/mail": "^6.5.2",
     "bcryptjs": "^2.4.3",
