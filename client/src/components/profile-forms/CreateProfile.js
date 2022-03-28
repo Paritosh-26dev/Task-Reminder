@@ -122,15 +122,3 @@ CreateProfile.propTypes = {
 };
 
 export default connect(null, { createProfile })(withRouter(CreateProfile));
-
-/*
-<div class="form-group">
-<h4>Due Date</h4>
-<input type="date" name="due_date" value={due_at} onChange={e=>onChange(e)}/>
-</div>
-
-<div class="form-group">
-<h4>Reminder at</h4>
-<input type="time" name="due_time" value={reminder_at} onChange={e=>onChange(e)}/>
-</div>
-*/

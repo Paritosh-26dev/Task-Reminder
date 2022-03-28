@@ -95,8 +95,3 @@ TaskForm.propTypes = {
 };
 
 export default connect(null, { addTask })(TaskForm);
-/*
-<input type='date' name="due_at" value={due_at} onChange={e=> onChange(e)}/>
-
-<DatePicker id="due_date" minDate={addDays(new Date(), 1)} id="due_date" name="due_at" value={due_at} onChange={e=> onChange(e)} />
-*/
